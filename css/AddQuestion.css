@@ -1,0 +1,26 @@
+input{
+    width: 70%;
+}
+.Button{
+    background-color: #ffffff;
+    color: #e05842;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+    width: auto;
+
+}
+
+#questionContainer{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 20px;
+    width: 70%;
+
+}
+
+label{
+    color: #fcd15a;
+}

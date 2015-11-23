@@ -1,0 +1,66 @@
+     body{
+              display: inline;
+          }
+          .group {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+   
+    padding: 5px;
+    text-align: center;
+}
+
+ .group1{
+              
+                width: 80%;
+                height: 25%;
+                
+               
+              font-size: 25px;    
+               margin: 10px;
+              margin-top: 0px;
+              
+             padding: 0px;
+             text-align: center; 
+            }
+          
+         .group2{
+              float: left;
+              width: 25%;
+              height: 100%;
+   
+            
+             padding: 5px;
+             text-align: center;
+             margin: 20px;
+             margin-left: 50px;
+           
+            } 
+          .middle{
+              position: relative;
+              left: 260px;
+              top: 60px;
+          }
+          .under{
+             
+              position: relative;
+              float: left;
+              margin: 20px;
+              
+              padding: 20px;
+              top: 420px;
+             right: 350px;
+          }
+          
+          .button{
+           background-color: #ffffff;
+               color: #e05842;
+               font-size: 15px;
+               text-decoration: none;
+               cursor: pointer;
+               border: none;
+               margin: 5px;
+               padding: 5px;
+              margin-left:20px; 
+          }

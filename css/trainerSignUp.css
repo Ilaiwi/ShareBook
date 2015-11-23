@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #fcd15a;
+
+}
+
+label{
+    color: #ffffff;
+}
+table{
+    padding-top: 20px;
+}
+td{
+    padding: 5px;
+}
+
+.addButton{
+    background-color: #ffffff;
+    color: #e05842;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+
+}
+

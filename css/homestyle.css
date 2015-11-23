@@ -1,0 +1,38 @@
+#discription{
+    width: 500px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #476676;
+    border-radius: 5px;
+
+}
+#homeContent{
+    top: 300px;
+    position: relative;
+    left: 700px;
+}
+
+#bodyButtonContainer{
+    padding-top: 30px;
+}
+
+
+.bodyButton{
+    float: left;
+    background-color: #f5f6f7;
+    color: #e05842;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+#body{
+    background-image: url('../imgs/homebackground.png');
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+}

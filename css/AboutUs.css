@@ -1,0 +1,16 @@
+#AboutContainer{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 20px;
+    width: 80%;
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    padding: 20px;
+}
+p{
+    color: #ffffff;
+    font-size: large;
+}
+h2 {
+    color: #fcd15a;
+}

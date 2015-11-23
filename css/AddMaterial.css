@@ -1,0 +1,26 @@
+#MaterialContainer{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 40%;
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+.Button{
+    background-color: #ffffff;
+    color: #e05842;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+
+}
+
+label{
+    color: #fcd15a;
+    font-size: 18px;
+}

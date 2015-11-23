@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Hello</title>
+		<script>
+	function update()
+	{
+	   var x = document.getElementById('text').value;
+	   document.getElementById("frame").setAttribute("srcdoc", x); 
+
+	}
+</script>
+
+	<style>
+	body{
+		background: #FFFFFF;
+	}
+	img#profilePic{
+		text-align: center;
+		border-style: solid;
+		border-color: white;
+		border-width: 2px;
+		
+	}
+	#name{
+		color: white;
+		padding-left: 50px;
+		font-weight: normal;
+	}
+
+	h2{
+		color: black;
+	}
+	div#intro{
+		
+		margin: 20px;
+
+	}
+	div#info{
+		padding-left: 300px;
+		margin-top: 20px;
+	}
+	div#header{
+		margin-left: 10%;
+		margin-right: 10%;
+		background: #99CCFF;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		padding: 20px;
+	}
+	.flow{
+		float: left;
+	}
+	textarea#text{
+		
+	}
+	div#tryit{
+		margin: 10%;
+		margin-top: 5%;
+
+	}
+	button#updateBTN{
+		margin-top: 10%;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding: 5px;
+	}
+	iframe#frame{
+		background: white;
+		width: 60%;
+	}
+	</style>
+
+</head>
+<body>
+	
+	<div id="header">
+		<div id="intro" >
+
+			<Center><img id = "profilePic"src="ahmad.jpg"></center>
+			<div id="info">
+				<div id="name">Ahmad Ilaiwi </div>
+				<br/>
+				<div id="age"> Age: 20 </div>
+				<br/>
+				<div id="Work"> Work: Web Developer </div>
+				<br/>
+				<div id="Email"> Email: Ahmad.Ilaiwi@gmail.com </div>
+			</div>
+		</div>
+
+	</div>
+	<div id="tryit">
+		<textarea id="text" class="flow"  Rows="20" cols="50" ></textarea>
+		<button id="updateBTN" class="flow" onclick="update();"> update </button>
+
+		<div id="frameinclose"> 
+			<IFRAME id="frame" scrolling="yes" srcdoc="" height="260px"  >
+			</IFRAME>
+		</div>
+	</div>
+</body>
+</html>

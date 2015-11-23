@@ -1,0 +1,68 @@
+.Button{
+    background-color: #ffffff;
+    color: #e05842;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    margin: 5px;
+
+}
+#search{
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    width: 55%;
+    position: relative;
+    margin: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    height: 50%;
+
+}
+#search1{
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    width: 55%;
+    position: relative;
+    margin: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    height: 50%;
+
+}
+#search2{
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    width: 55%;
+    position: relative;
+    margin: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    height: 50%;
+
+}
+#Addbutton{
+    margin-top: 20px;
+    margin-left: 45%;
+}
+#Addbutton1{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+#addedStudents{
+    height: 50%;
+    background: rgba(245, 246, 247, .5);
+    border-radius: 5px;
+    width: 30%;
+    position: absolute;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    left: 60%;
+}
+
+select { width: 100%; height: 75% }
+
+label{
+    color: #e05842;
+}
