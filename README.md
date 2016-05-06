@@ -29,7 +29,7 @@ Note: All these functionalities are programed from scratch using php.
 3. Import the sql file into MySql.
 4. Use localhost.
 
-## Useres to play with:
+## Users to play with:
 
 ### student
 ahmad.ilaiwi@gmail.com:123456
